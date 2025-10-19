@@ -1,0 +1,32 @@
+#include "BrownieCafe.h"
+#include "BrownieNutella.h"
+#include "BrownieDoceDeLeite.h"
+
+int main()
+{
+
+    BrownieCafe bwCafe("Brownie Expresso", 12.50, "Cafe Expresso");
+    BrownieNutella bwNutella("Brownie Cremoso", 18.90, "Nutella Premium");
+    BrownieDoceDeLeite bwDoceLeite("Brownie Tradicional", 14.00, "Doce de leite caseiro");
+
+    bwNutella.adicionaNutella();
+    bwCafe.adicionaCafe();
+    bwDoceLeite.adicionaDoceDeLeite();
+    cout << endl;
+
+    bwCafe.mostraInfo();
+    bwDoceLeite.mostraInfo();
+    bwNutella.mostraInfo();
+    cout << endl;
+
+    bwCafe.addCarrinhoDeCompras();
+    bwNutella.addCarrinhoDeCompras();
+    bwDoceLeite.addCarrinhoDeCompras();
+    cout << endl;
+
+    bwNutella.calculaValorTotalCompra();
+    bwCafe.calculaValorTotalCompra();
+    bwDoceLeite.calculaValorTotalCompra();
+
+    return 0;
+}
