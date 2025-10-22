@@ -9,7 +9,7 @@ public:
     BrownieCafe(string nome, double preco, string sabor);
 
     void adicionaCafe();
-    void addCarrinhoDeCompras() override;
+    void addCarrinhoDeCompras();
 };
 
 #endif
