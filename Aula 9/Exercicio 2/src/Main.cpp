@@ -1,6 +1,6 @@
-#include "BrownieCafe.h"
-#include "BrownieNutella.h"
-#include "BrownieDoceDeLeite.h"
+#include "../include/BrownieCafe.h"
+#include "../include/BrownieNutella.h"
+#include "../include/BrownieDoceDeLeite.h"
 
 int main()
 {

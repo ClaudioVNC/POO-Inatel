@@ -1,4 +1,4 @@
-#include "Comprador.h"
+#include "../include/Comprador.h"
 
 Comprador::Comprador(string nome, double saldo)
 {

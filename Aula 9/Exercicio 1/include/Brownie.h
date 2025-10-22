@@ -17,7 +17,7 @@ public:
     Brownie(string nome, double preco, string sabor);
 
     void addCarrinhoDeCompras();
-    virtual void calculaValorTotalCompra(); // Descobri que para usar polimorfismo no C++ é necessário declarar o método como virtual
+    virtual void calculaValorTotalCompra(); // método virtual para polimorfismo
     virtual void mostraInfo();
 
     string getNome();

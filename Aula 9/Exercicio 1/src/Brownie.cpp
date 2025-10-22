@@ -1,4 +1,4 @@
-#include "Brownie.h"
+#include "../include/Brownie.h"
 
 Brownie::Brownie(string nome, double preco, string sabor)
 {
