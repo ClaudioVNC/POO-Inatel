@@ -12,21 +12,21 @@ Atividade sobre **Herança e Polimorfismo** em C++.
 
 ### Exercício 1
 ```bash
-cd "Exercicio 1"
+cd "Aula 9/Exercicio 1"
 g++ -o brownie Main.cpp Brownie.cpp BrownieCafe.cpp BrownieNutella.cpp BrownieDoceDeLeite.cpp
 ./brownie
 ```
 
 ### Exercício 2
 ```bash
-cd "Exercicio 2"
+cd "Aula 9/Exercicio 2"
 g++ -o brownie Main.cpp Brownie.cpp BrownieCafe.cpp BrownieNutella.cpp BrownieDoceDeLeite.cpp
 ./brownie
 ```
 
 ### Exercício 3
 ```bash
-cd "Exercicio 3"
+cd "Aula 9/Exercicio 3"
 g++ -o brownie Main.cpp Brownie.cpp BrownieCafe.cpp BrownieNutella.cpp BrownieDoceDeLeite.cpp Comprador.cpp
 ./brownie
 ```
