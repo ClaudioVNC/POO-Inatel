@@ -7,5 +7,10 @@ Lontra::Lontra(string nome, double vida)
 
 void Lontra::emitirSom()
 {
-    cout << nome << ": Eii!" << endl;
+    cout << "Eii!" << endl;
+}
+
+void Lontra::nadar()
+{
+    cout << "Splash!" << endl;
 }

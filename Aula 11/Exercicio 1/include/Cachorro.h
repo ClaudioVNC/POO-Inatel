@@ -8,7 +8,7 @@ class Cachorro : public Mamifero
 public:
     Cachorro(string nome, double vida);
 
-    void emitirSom();
+    void emitirSom() override;
 };
 
 #endif

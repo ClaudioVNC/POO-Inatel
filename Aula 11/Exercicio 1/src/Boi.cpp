@@ -7,5 +7,5 @@ Boi::Boi(string nome, double vida)
 
 void Boi::emitirSom()
 {
-    cout << nome << ": Muu!" << endl;
+    cout << nome << ": Muuu!" << endl;
 }

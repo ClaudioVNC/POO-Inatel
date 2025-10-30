@@ -8,7 +8,7 @@ class Boi : public Mamifero
 public:
     Boi(string nome, double vida);
 
-    void emitirSom();
+    void emitirSom() override;
 };
 
 #endif

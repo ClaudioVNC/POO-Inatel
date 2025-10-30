@@ -3,10 +3,10 @@
 
 #include "Mamifero.h"
 
-class Lontra : public Mamifero {
+class Lontra : public Mamifero
+{
 public:
     Lontra(string nome, double vida);
-    virtual ~Lontra();
 
     void emitirSom();
 };

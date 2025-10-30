@@ -7,5 +7,5 @@ Cachorro::Cachorro(string nome, double vida)
 
 void Cachorro::emitirSom()
 {
-    cout << nome << ": Au au!" << endl;
+    cout << nome << ": Au Au!" << endl;
 }
